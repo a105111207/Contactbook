@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head >
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>生活聯絡簿與留言板</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <script src="main.js"></script>
+</head>
+<body  class="align-center" id="body">
+  <h2 >聯絡簿系統</h2>
+  <p>請登入</p>
+  <form action="./paging/MySQLaction.php" method="post">
+    <input type="radio" name="identity" value="teacher" checked="true">老師
+    <input type="radio" name="identity" value="student">學生
+    <input type="radio" name="identity" value="parent">家長</br>
+    帳號：<input id="size" type="text" name="account" value=""></br>
+    密碼：<input id="size" type="password" name="password" value=""></br>
+    <input type="submit" name="loging" value="登入">
+	&nbsp;&nbsp;<a href="./paging/FindPassword.php">忘記密碼</a>
+  </form>
+
+
+  <!-- jQuery (ncol-lg-3 col-md-3 col-sm-6 col-xs-12for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery-1.11.3.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
