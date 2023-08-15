@@ -383,7 +383,7 @@
 		-webkit-appearance: checkbox;
 		-o-appearance: none;
 		-ms-appearance: none;
-		appearance: none;
+		/*appearance: none;*/
 		opacity: 3;
 		width: 1em;
 		z-index: -1;
