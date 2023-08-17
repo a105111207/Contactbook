@@ -7,7 +7,6 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<link href="../css/bootstrap.css" rel="stylesheet">
   	<link href="../css/style.css" rel="stylesheet" type="text/css">
-  	<script src="../main.js"></script>
 </head>
 <body class="body">
 	<?php

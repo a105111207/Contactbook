@@ -7,15 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet" type="text/css">
-  <script src="main.js"></script>
 </head>
 <body  class="align-center" id="body">
   <h2 >聯絡簿系統</h2>
   <p>請登入</p>
   <form action="./paging/MySQLaction.php" method="post">
-    <input type="radio" name="identity" value="teacher" checked="true">老師
-    <input type="radio" name="identity" value="student">學生
-    <input type="radio" name="identity" value="parent">家長</br>
+    <input type="radio" name="identity" value="teacher" checked="true"/>老師
+    <input type="radio" name="identity" value="student"/>學生
+    <input type="radio" name="identity" value="parent"/>家長</br>
     帳號：<input id="size" type="text" name="account" value=""></br>
     密碼：<input id="size" type="password" name="password" value=""></br>
     <input type="submit" name="loging" value="登入">

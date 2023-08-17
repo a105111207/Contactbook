@@ -1,6 +1,6 @@
 @charset "UTF-8";
-@import url(font-awesome.min.css);
-@import url("http://fonts.googleapis.com/css?family=Lato:300,400");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&family=Noto+Sans+TC&family=Noto+Serif+TC:wght@300&display=swap');
 
 /*
 	Interphase by TEMPLATED
@@ -383,18 +383,18 @@
 		-webkit-appearance: checkbox;
 		-o-appearance: none;
 		-ms-appearance: none;
-		appearance: none;
+		/*appearance: none;*/
 		opacity: 3;
 		width: 1em;
 		z-index: -1;
 	}
 	input[type="radio"] {
 		
-		-moz-appearance: none;
 		-webkit-appearance: radio;
+		/*-moz-appearance: none;
 		-o-appearance: none;
 		-ms-appearance: none;
-		appearance: none;
+		appearance: none;*/
 		opacity: 3;
 		width: 1em;
 		z-index: -1;
